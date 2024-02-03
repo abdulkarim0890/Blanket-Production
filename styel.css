@@ -1,0 +1,62 @@
+
+.flex-container {
+  display:flex;
+  background-color: rgb(51, 52, 52);
+}
+
+.flex-container > div {
+  background-color: #27d77c;
+  margin: 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+
+
+body {
+  background-color: rgb(76, 54, 15);
+  background-image: linear-gradient(to right top, rgb(76, 54, 15) , rgb(61, 181, 233) , rgb(193, 188, 38));
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5a4e4e;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: lower-roman;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
